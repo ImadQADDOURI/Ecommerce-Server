@@ -5,6 +5,8 @@ const app = express();
 
 require('./DB/conn');
 
+const Products = require("./models/productsSchema");
+
 
 const port = 8005;
 
